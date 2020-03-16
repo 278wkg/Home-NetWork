@@ -1,0 +1,35 @@
+/* pages/pay/pay.wxss */
+.contact{
+  padding: 20rpx;
+  background-color: #eee;
+  border-radius: 10rpx;
+}
+.contact .adress{
+  font-size: 16rpx;
+}
+.contact .name{
+  font-size: 20rpx;
+}
+.left image{
+  width: 180rpx;
+  height: 150rpx;
+}
+.left{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+}
+.cartItem{
+  display: flex;
+  justify-content: space-between;
+  padding: 10rpx;
+  border-bottom: 1px solid gray;
+}
+.right{
+  display: flex;
+  padding: 50rpx;
+}
+.count{
+  padding-right: 30rpx;
+}

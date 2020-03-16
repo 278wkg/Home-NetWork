@@ -1,0 +1,25 @@
+<view class="contact">
+    <view class="address">{{address}}</view>
+      <view class="name">{{userInfo.nickName}}{{userInfo.gender==1?"先生":"女士"}} 
+    </view>
+</view>
+
+<view class="container">
+  <view class="cartItem" wx:for="{{cartFoodList}}">
+    <view class="left">
+      <image src="{{item.img}}"></image>
+      <view>{{item.name}}</view>
+    </view>
+    <view class="right">
+      <view class="count">{{item.count}}份</view>
+      <view>{{item.count * item.price}}</view>
+    </view>
+  </view>
+</view>
+
+<view>
+  <fee title="包装费" sum="3"></fee>
+  <fee title="配送费" sum="6"></fee>
+  <fee title="红包" sum="3"></fee>
+  <fee title="代金券" sum="0"></fee>
+</view>

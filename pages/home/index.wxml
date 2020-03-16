@@ -1,0 +1,23 @@
+<swiper autoplay="true" indicator-dots="true" interval="3000" circular="true" indicator-active-color="white">
+  <swiper-item>
+    <image src="http://p1.music.126.net/jGUUIVQxE4c6wy2cUgj04A==/109951164744678585.jpg?imageView&quality=89"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="http://p1.music.126.net/Ha3zeAkIThWfYXzUrNl9hQ==/109951164740551479.jpg?imageView&quality=89"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="http://p1.music.126.net/xq3huH-9vaLGcGm9OSnQxQ==/109951164743432454.jpg?imageView&quality=89"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="http://p1.music.126.net/hKI9MLnJbfTV78mvs1g9_Q==/109951164743616760.jpg?imageView&quality=89"></image>
+  </swiper-item>
+</swiper>
+
+<view class="menu flex">
+  <view class="menu-item" wx:for="{{types}}">
+    <image src="{{item.img}}"></image>
+    <view>{{item.title}}</view>
+    <view>{{item.title}}</view>
+    
+  </view>
+</view>

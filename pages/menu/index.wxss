@@ -1,0 +1,80 @@
+/* pages/menu/index.wxss */
+@import "../../fonts/iconfont.wxss";
+@import "../../fontsTow/iconfont.wxss";
+swiper image{
+  height: 300rpx;
+  padding-left: 55rpx;
+}
+.container{
+  padding-left: 55rpx;
+  padding-top: 20rpx;
+  height: 705rpx;
+}
+.flex{
+  display:flex;
+}
+.left{
+  text-align: center;
+  width: 200rpx;
+  background-color: #EEE;
+}
+.leftItem{
+  border-bottom: solid 2px white;
+}
+.right{
+  flex: 1;
+}
+.rightItem{
+  margin-right: 12%;
+  border-bottom: solid 2px #EEE;
+}
+.info{
+  flex: 1;
+  text-align: right;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.active{
+  background-color: white;
+}
+.cart{
+  display: flex;
+  justify-content: flex-end;
+}
+.invisable{
+  display: none
+}
+.qian{
+  padding:0rpx 20rpx;
+}
+.balance{
+  width: 100vm;
+  height: 100rpx;
+}
+.bottoms{
+  align-items: center;
+}
+.car{
+  font-size: 22px;
+  padding-left: 25px;
+}
+.back{
+  width: 100vw;
+  height: 724rpx;
+  position: absolute;
+  left: 0;
+  top: 300rpx;
+  background-color: #EEE;
+}
+.banner,.c,.cartFoodItem,.bottoms{
+  display: flex;
+  justify-content: space-between;
+}
+.banner{
+  padding-top: 10px;
+  border-bottom: solid 1px white;
+}
+.cartFoodItem{
+  border-bottom: solid 1px white;
+  padding: 5px 0px 5px 0px;
+}

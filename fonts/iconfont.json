@@ -1,0 +1,23 @@
+{
+  "id": "1671682",
+  "name": "急急急",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "5439963",
+      "name": "加",
+      "font_class": "jia",
+      "unicode": "e636",
+      "unicode_decimal": 58934
+    },
+    {
+      "icon_id": "7549365",
+      "name": "减",
+      "font_class": "Rectangle",
+      "unicode": "e6a5",
+      "unicode_decimal": 59045
+    }
+  ]
+}

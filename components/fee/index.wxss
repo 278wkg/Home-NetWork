@@ -1,0 +1,9 @@
+/* components/fee/index.wxss */
+
+.fee{
+  display: flex;
+  justify-content: space-between;
+}
+.fee .title,.sum{
+  padding: 10rpx;
+}

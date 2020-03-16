@@ -1,0 +1,26 @@
+/* pages/home/index.wxss */
+swiper image{
+  width: 100vw;
+  height: 400rpx;
+}
+
+.menu{
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.menu .menu-item{
+  width: 25vw;
+  height: 25vw;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.menu image{
+  width: 50%;
+  height: 50%;
+}
+.font{
+  font-size: 35rpx;
+  color: gray;
+}
